@@ -17,10 +17,10 @@ javac -d bin -cp "lib/commons-io-2.21.0.jar:lib/gson-2.13.1.jar" src/main/java/c
 
 Per compilare in jar:
 ```cmd
-jar cfm storyfinder-core.jar MANIFEST.MF -C bin . -C src/main/resources .
+jar cfm storyfinder_core.jar MANIFEST.MF -C bin . -C src/main/resources .
 ```
 
 Per eseguire:
 ```cmd
-java -jar storyfinder-core.jar
+java -jar storyfinder_core.jar
 ```
