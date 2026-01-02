@@ -1,3 +1,5 @@
+package com.storyfinder;
+
 import java.util.List;
 
 public class Storia {
